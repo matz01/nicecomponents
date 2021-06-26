@@ -2,8 +2,8 @@
 
 {
     "ui/chip": {
-        "scope": "",
-        "version": "0.0.1",
+        "scope": "matz01.nicecomponents",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/chip"
     },

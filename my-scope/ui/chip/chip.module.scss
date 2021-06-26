@@ -6,6 +6,7 @@
     font-size: 16px;
     //line-height: 50px;
     border-radius: 25px;
+    font-family: var(--main-text, Arial, Helvetica, sans-serif);
     background-color: var(--chips-bg, #999);
     flex-wrap: nowrap;
     justify-content: center;
@@ -27,7 +28,7 @@
         transform: rotate(0);
         color: white;
         transition: all 100ms linear;
-        color: var(--chips-text)
+        color: var(--chips-text, white);
     }
     &.selected{
         transform: scale(1.05);
@@ -37,7 +38,7 @@
             0px 3px 7px 1px rgb(0 0 0 / 30%);
 
         svg{
-            color: var(--chips-text-selected)
+            color: var(--chips-text-selected, white);
             transform: rotate(45deg);
         }
 

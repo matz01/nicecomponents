@@ -5,8 +5,16 @@
         "scope": null,
         "name": "ui/chip"
       },
-      "isSymlink": false,
+      "isSymlink": true,
       "hash": "25dc6aa0c67673848dc340683090a00eff91d412"
+    },
+    {
+      "id": {
+        "scope": "matz01.nicecomponents",
+        "name": "ui/chip"
+      },
+      "isSymlink": false,
+      "hash": "801b30c42b5538a010dcafb9c27316627d6de406"
     }
   ],
   "lanes": []

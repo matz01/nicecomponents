@@ -4,7 +4,7 @@
     "name": "niceComponents",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "my-scope"
+    "defaultScope": "matz01.nicecomponents"
   },
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/pnpm",
