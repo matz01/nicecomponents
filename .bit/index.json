@@ -1,0 +1,13 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/chip"
+      },
+      "isSymlink": false,
+      "hash": "25dc6aa0c67673848dc340683090a00eff91d412"
+    }
+  ],
+  "lanes": []
+}
