@@ -11,3 +11,16 @@ yarn-error.log*
 /.changelog
 .npm/
 yarn.lock
+.bit/cache
+
+# bit directories
+.bit
+
+#output
+dist/*
+public/
+!components/*/dist/
+dist-legacy/
+flow-typed/
+eslint-report.html
+types/*

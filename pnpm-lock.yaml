@@ -1,20 +1,20 @@
 importers:
   .:
     dependencies:
-      '@fortawesome/fontawesome-svg-core': registry.npmjs.org/@fortawesome/fontawesome-svg-core/1.2.35
-      '@fortawesome/free-solid-svg-icons': registry.npmjs.org/@fortawesome/free-solid-svg-icons/5.15.3
-      '@fortawesome/react-fontawesome': registry.npmjs.org/@fortawesome/react-fontawesome/0.1.14_ec0af2bc0907a851e3e0afc4708fd0f0
-      core-js: registry.npmjs.org/core-js/3.15.1
-      react: registry.npmjs.org/react/17.0.2
-      react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
+      '@fortawesome/fontawesome-svg-core': 1.2.35
+      '@fortawesome/free-solid-svg-icons': 5.15.3
+      '@fortawesome/react-fontawesome': 0.1.14_ec0af2bc0907a851e3e0afc4708fd0f0
+      core-js: 3.15.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
-      '@testing-library/react': registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2
-      '@types/jest': registry.npmjs.org/@types/jest/26.0.23
-      '@types/node': registry.npmjs.org/@types/node/12.20.4
-      '@types/react': registry.npmjs.org/@types/react/17.0.11
-      '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.8
-      '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
+      '@babel/runtime': 7.12.18
+      '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
+      '@types/jest': 26.0.23
+      '@types/node': 12.20.4
+      '@types/react': 17.0.11
+      '@types/react-dom': 17.0.8
+      '@types/testing-library__jest-dom': 5.9.5
     specifiers:
       '@babel/runtime': 7.12.18
       '@fortawesome/fontawesome-svg-core': 1.2.35
@@ -35,6 +35,272 @@ importers:
     specifiers: {}
 lockfileVersion: 5.2
 packages:
+  /@babel/runtime/7.12.18:
+    dependencies:
+      regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.7
+    dev: true
+    resolution:
+      integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==
+  /@fortawesome/fontawesome-svg-core/1.2.35:
+    dependencies:
+      '@fortawesome/fontawesome-common-types': registry.npmjs.org/@fortawesome/fontawesome-common-types/0.2.35
+    dev: false
+    engines:
+      node: '>=6'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-uLEXifXIL7hnh2sNZQrIJWNol7cTVIzwI+4qcBIq9QWaZqUblm0IDrtSqbNg+3SQf8SMGHkiSigD++rHmCHjBg==
+  /@fortawesome/free-solid-svg-icons/5.15.3:
+    dependencies:
+      '@fortawesome/fontawesome-common-types': registry.npmjs.org/@fortawesome/fontawesome-common-types/0.2.35
+    dev: false
+    engines:
+      node: '>=6'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-XPeeu1IlGYqz4VWGRAT5ukNMd4VHUEEJ7ysZ7pSSgaEtNvSo+FLurybGJVmiqkQdK50OkSja2bfZXOeyMGRD8Q==
+  /@fortawesome/react-fontawesome/0.1.14_ec0af2bc0907a851e3e0afc4708fd0f0:
+    dependencies:
+      '@fortawesome/fontawesome-svg-core': 1.2.35
+      prop-types: registry.npmjs.org/prop-types/15.7.2
+      react: 17.0.2
+    dev: false
+    peerDependencies:
+      '@fortawesome/fontawesome-svg-core': ^1.2.32
+      react: '>=16.x'
+    resolution:
+      integrity: sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA==
+  /@jest/types/26.6.2:
+    dependencies:
+      '@types/istanbul-lib-coverage': 2.0.3
+      '@types/istanbul-reports': 3.0.1
+      '@types/node': 12.20.4
+      '@types/yargs': 15.0.13
+      chalk: 4.1.1
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==
+  /@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.0.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: true
+    engines:
+      node: '>=12'
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    resolution:
+      integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==
+  /@types/istanbul-lib-coverage/2.0.3:
+    dev: true
+    resolution:
+      integrity: sha512-sz7iLqvVUg1gIedBOvlkxPlc8/uVzyS5OwGz1cKjXzkl3FpL3al0crU8YGU1WoHkxn0Wxbw5tyi6hvzJKNzFsw==
+  /@types/istanbul-lib-report/3.0.0:
+    dependencies:
+      '@types/istanbul-lib-coverage': 2.0.3
+    dev: true
+    resolution:
+      integrity: sha512-plGgXAPfVKFoYfa9NpYDAkseG+g6Jr294RqeqcqDixSbU34MZVJRi/P+7Y8GDpzkEwLaGZZOpKIEmeVZNtKsrg==
+  /@types/istanbul-reports/3.0.1:
+    dependencies:
+      '@types/istanbul-lib-report': 3.0.0
+    dev: true
+    resolution:
+      integrity: sha512-c3mAZEuK0lvBp8tmuL74XRKn1+y2dcwOUpH7x4WrF6gk1GIgiluDRgMYQtw2OFcBvAJWlt6ASU3tSqxp0Uu0Aw==
+  /@types/jest/26.0.23:
+    dependencies:
+      jest-diff: 26.6.2
+      pretty-format: 26.6.2
+    dev: true
+    resolution:
+      integrity: sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==
+  /@types/node/12.20.4:
+    dev: true
+    resolution:
+      integrity: sha512-xRCgeE0Q4pT5UZ189TJ3SpYuX/QGl6QIAOAIeDSbAVAd2gX1NxSZup4jNVK7cxIeP8KDSbJgcckun495isP1jQ==
+  /@types/prop-types/15.7.3:
+    dev: true
+    resolution:
+      integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+  /@types/react-dom/17.0.8:
+    dependencies:
+      '@types/react': 17.0.11
+    dev: true
+    resolution:
+      integrity: sha512-0ohAiJAx1DAUEcY9UopnfwCE9sSMDGnY/oXjWMax6g3RpzmTt2GMyMVAXcbn0mo8XAff0SbQJl2/SBU+hjSZ1A==
+  /@types/react/17.0.11:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      '@types/scheduler': 0.16.1
+      csstype: 3.0.8
+    dev: true
+    resolution:
+      integrity: sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
+  /@types/scheduler/0.16.1:
+    dev: true
+    resolution:
+      integrity: sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
+  /@types/testing-library__jest-dom/5.9.5:
+    dependencies:
+      '@types/jest': registry.npmjs.org/@types/jest/26.0.23
+    dev: true
+    resolution:
+      integrity: sha512-ggn3ws+yRbOHog9GxnXiEZ/35Mow6YtPZpd7Z5mKDeZS/o7zx3yAle0ov/wjhVB5QT4N2Dt+GNoGCdqkBGCajQ==
+  /@types/yargs-parser/20.2.0:
+    dev: true
+    resolution:
+      integrity: sha512-37RSHht+gzzgYeobbG+KWryeAW8J33Nhr69cjTqSYymXVZEN9NbRYWoYlRtDhHKPVT1FyNKwaTPC1NynKZpzRA==
+  /@types/yargs/15.0.13:
+    dependencies:
+      '@types/yargs-parser': 20.2.0
+    dev: true
+    resolution:
+      integrity: sha512-kQ5JNTrbDv3Rp5X2n/iUu37IJBDU2gsZ5R/g1/KHOOEc5IKfUFjXT6DENPGduh08I/pamwtEq4oul7gUqKTQDQ==
+  /ansi-regex/5.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+  /ansi-styles/4.3.0:
+    dependencies:
+      color-convert: 2.0.1
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
+  /chalk/4.1.1:
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+  /color-convert/2.0.1:
+    dependencies:
+      color-name: 1.1.4
+    dev: true
+    engines:
+      node: '>=7.0.0'
+    resolution:
+      integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+  /color-name/1.1.4:
+    dev: true
+    resolution:
+      integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+  /core-js/3.15.1:
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-h8VbZYnc9pDzueiS2610IULDkpFFPunHwIpl8yRwFahAEEdSpHlTy3h3z3rKq5h11CaUdBEeRViu9AYvbxiMeg==
+  /csstype/3.0.8:
+    dev: true
+    resolution:
+      integrity: sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
+  /diff-sequences/26.6.2:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q==
+  /has-flag/4.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+  /jest-diff/26.6.2:
+    dependencies:
+      chalk: 4.1.1
+      diff-sequences: 26.6.2
+      jest-get-type: 26.3.0
+      pretty-format: 26.6.2
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha512-6m+9Z3Gv9wN0WFVasqjCL/06+EFCMTqDEUl/b87HYK2rAPTyfz4ZIuSlPhY51PIQRWx5TaxeF1qmXKe9gfN3sA==
+  /jest-get-type/26.3.0:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==
+  /js-tokens/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /pretty-format/26.6.2:
+    dependencies:
+      '@jest/types': 26.6.2
+      ansi-regex: 5.0.0
+      ansi-styles: 4.3.0
+      react-is: 17.0.2
+    dev: true
+    engines:
+      node: '>= 10'
+    resolution:
+      integrity: sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==
+  /react-dom/17.0.2_react@17.0.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react: 17.0.2
+      scheduler: 0.20.2
+    dev: false
+    peerDependencies:
+      react: 17.0.2
+    resolution:
+      integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+  /react-is/17.0.2:
+    dev: true
+    resolution:
+      integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+  /react/17.0.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+  /scheduler/0.20.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+    resolution:
+      integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+  /supports-color/7.2.0:
+    dependencies:
+      has-flag: 4.0.0
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   registry.npmjs.org/@babel/code-frame/7.14.5:
     dependencies:
       '@babel/highlight': registry.npmjs.org/@babel/highlight/7.14.5
@@ -105,48 +371,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.35.tgz
     version: 0.2.35
-  registry.npmjs.org/@fortawesome/fontawesome-svg-core/1.2.35:
-    dependencies:
-      '@fortawesome/fontawesome-common-types': registry.npmjs.org/@fortawesome/fontawesome-common-types/0.2.35
-    dev: false
-    engines:
-      node: '>=6'
-    name: '@fortawesome/fontawesome-svg-core'
-    requiresBuild: true
-    resolution:
-      integrity: sha512-uLEXifXIL7hnh2sNZQrIJWNol7cTVIzwI+4qcBIq9QWaZqUblm0IDrtSqbNg+3SQf8SMGHkiSigD++rHmCHjBg==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.35.tgz
-    version: 1.2.35
-  registry.npmjs.org/@fortawesome/free-solid-svg-icons/5.15.3:
-    dependencies:
-      '@fortawesome/fontawesome-common-types': registry.npmjs.org/@fortawesome/fontawesome-common-types/0.2.35
-    dev: false
-    engines:
-      node: '>=6'
-    name: '@fortawesome/free-solid-svg-icons'
-    requiresBuild: true
-    resolution:
-      integrity: sha512-XPeeu1IlGYqz4VWGRAT5ukNMd4VHUEEJ7ysZ7pSSgaEtNvSo+FLurybGJVmiqkQdK50OkSja2bfZXOeyMGRD8Q==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.3.tgz
-    version: 5.15.3
-  registry.npmjs.org/@fortawesome/react-fontawesome/0.1.14_ec0af2bc0907a851e3e0afc4708fd0f0:
-    dependencies:
-      '@fortawesome/fontawesome-svg-core': registry.npmjs.org/@fortawesome/fontawesome-svg-core/1.2.35
-      prop-types: registry.npmjs.org/prop-types/15.7.2
-      react: registry.npmjs.org/react/17.0.2
-    dev: false
-    id: registry.npmjs.org/@fortawesome/react-fontawesome/0.1.14
-    name: '@fortawesome/react-fontawesome'
-    peerDependencies:
-      '@fortawesome/fontawesome-svg-core': ^1.2.32
-      react: '>=16.x'
-    resolution:
-      integrity: sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz
-    version: 0.1.14
   registry.npmjs.org/@jest/types/26.6.2:
     dependencies:
       '@types/istanbul-lib-coverage': registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3
@@ -198,25 +422,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@testing-library/dom/-/dom-8.0.0.tgz
     version: 8.0.0
-  registry.npmjs.org/@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
-    dependencies:
-      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
-      '@testing-library/dom': registry.npmjs.org/@testing-library/dom/8.0.0
-      react: registry.npmjs.org/react/17.0.2
-      react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
-    dev: true
-    engines:
-      node: '>=12'
-    id: registry.npmjs.org/@testing-library/react/12.0.0
-    name: '@testing-library/react'
-    peerDependencies:
-      react: '*'
-      react-dom: '*'
-    resolution:
-      integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@testing-library/react/-/react-12.0.0.tgz
-    version: 12.0.0
   registry.npmjs.org/@types/aria-query/4.2.1:
     dev: true
     name: '@types/aria-query'
@@ -272,54 +477,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/node/-/node-12.20.4.tgz
     version: 12.20.4
-  registry.npmjs.org/@types/prop-types/15.7.3:
-    dev: true
-    name: '@types/prop-types'
-    resolution:
-      integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz
-    version: 15.7.3
-  registry.npmjs.org/@types/react-dom/17.0.8:
-    dependencies:
-      '@types/react': registry.npmjs.org/@types/react/17.0.11
-    dev: true
-    name: '@types/react-dom'
-    resolution:
-      integrity: sha512-0ohAiJAx1DAUEcY9UopnfwCE9sSMDGnY/oXjWMax6g3RpzmTt2GMyMVAXcbn0mo8XAff0SbQJl2/SBU+hjSZ1A==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.8.tgz
-    version: 17.0.8
-  registry.npmjs.org/@types/react/17.0.11:
-    dependencies:
-      '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.3
-      '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.1
-      csstype: registry.npmjs.org/csstype/3.0.8
-    dev: true
-    name: '@types/react'
-    resolution:
-      integrity: sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.11.tgz
-    version: 17.0.11
-  registry.npmjs.org/@types/scheduler/0.16.1:
-    dev: true
-    name: '@types/scheduler'
-    resolution:
-      integrity: sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.1.tgz
-    version: 0.16.1
-  registry.npmjs.org/@types/testing-library__jest-dom/5.9.5:
-    dependencies:
-      '@types/jest': registry.npmjs.org/@types/jest/26.0.23
-    dev: true
-    name: '@types/testing-library__jest-dom'
-    resolution:
-      integrity: sha512-ggn3ws+yRbOHog9GxnXiEZ/35Mow6YtPZpd7Z5mKDeZS/o7zx3yAle0ov/wjhVB5QT4N2Dt+GNoGCdqkBGCajQ==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.9.5.tgz
-    version: 5.9.5
   registry.npmjs.org/@types/yargs-parser/20.2.0:
     dev: true
     name: '@types/yargs-parser'
@@ -479,23 +636,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.15.1.tgz
     version: 3.15.1
-  registry.npmjs.org/core-js/3.15.1:
-    dev: false
-    name: core-js
-    requiresBuild: true
-    resolution:
-      integrity: sha512-h8VbZYnc9pDzueiS2610IULDkpFFPunHwIpl8yRwFahAEEdSpHlTy3h3z3rKq5h11CaUdBEeRViu9AYvbxiMeg==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/core-js/-/core-js-3.15.1.tgz
-    version: 3.15.1
-  registry.npmjs.org/csstype/3.0.8:
-    dev: true
-    name: csstype
-    resolution:
-      integrity: sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.8.tgz
-    version: 3.0.8
   registry.npmjs.org/diff-sequences/26.6.2:
     dev: true
     engines:
@@ -648,22 +788,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz
     version: 15.7.2
-  registry.npmjs.org/react-dom/17.0.2_react@17.0.2:
-    dependencies:
-      loose-envify: registry.npmjs.org/loose-envify/1.4.0
-      object-assign: registry.npmjs.org/object-assign/4.1.1
-      react: registry.npmjs.org/react/17.0.2
-      scheduler: registry.npmjs.org/scheduler/0.20.2
-    dev: false
-    id: registry.npmjs.org/react-dom/17.0.2
-    name: react-dom
-    peerDependencies:
-      react: 17.0.2
-    resolution:
-      integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz
-    version: 17.0.2
   registry.npmjs.org/react-is/16.13.1:
     dev: false
     name: react-is
@@ -680,19 +804,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz
     version: 17.0.2
-  registry.npmjs.org/react/17.0.2:
-    dependencies:
-      loose-envify: registry.npmjs.org/loose-envify/1.4.0
-      object-assign: registry.npmjs.org/object-assign/4.1.1
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    name: react
-    resolution:
-      integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/react/-/react-17.0.2.tgz
-    version: 17.0.2
   registry.npmjs.org/regenerator-runtime/0.13.7:
     dev: true
     name: regenerator-runtime
@@ -701,17 +812,6 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz
     version: 0.13.7
-  registry.npmjs.org/scheduler/0.20.2:
-    dependencies:
-      loose-envify: registry.npmjs.org/loose-envify/1.4.0
-      object-assign: registry.npmjs.org/object-assign/4.1.1
-    dev: false
-    name: scheduler
-    resolution:
-      integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz
-    version: 0.20.2
   registry.npmjs.org/supports-color/5.5.0:
     dependencies:
       has-flag: registry.npmjs.org/has-flag/3.0.0
