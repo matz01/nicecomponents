@@ -3,13 +3,13 @@
 {
     "ui/chip": {
         "scope": "matz01.nicecomponents",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/ui/chip"
+        "rootDir": "nicecomponents/ui/chip"
     },
     "ui/selectslide": {
-        "scope": "",
-        "version": "",
+        "scope": "matz01.nicecomponents",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "nicecomponents/ui/selectslide"
     },
