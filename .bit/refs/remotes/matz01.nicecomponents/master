@@ -4,6 +4,13 @@
       "scope": "matz01.nicecomponents",
       "name": "ui/chip"
     },
-    "head": "5b8ca6c5a9529122c5dc2d12789d7ba9368ba819"
+    "head": "a02d6917511e634825a111b062ea1150a084df02"
+  },
+  {
+    "id": {
+      "scope": "matz01.nicecomponents",
+      "name": "ui/selectslide"
+    },
+    "head": "6889245c22ae5281fddd6c7c0e6ee26e486c770f"
   }
 ]
